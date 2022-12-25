@@ -13,9 +13,10 @@ _Note: Libraries can only be used within the specified language. APIs work via H
 | Author              | Type        | Language | Status        | Source                                             |
 | ------------------- | ----------- | -------- | ------------- | -------------------------------------------------- |
 | acheong08           | API         | Go/JS    | Open Source   | https://github.com/ChatGPT-Hackers/                |
-| transitive-bullshit | Library     | NodeJS   | Open source   | https://github.com/transitive-bullshit/chatgpt-api |
-| PawanOsman          | API/Library | C#       | Open source   | https://github.com/PawanOsman/ChatGPT.Net/         |
-| tonyb               | API (Paid)  | NodeJS   | Closed source | https://justbrowse.io/                             |
+| transitive-bullshit | Library     | NodeJS   | Open Source   | https://github.com/transitive-bullshit/chatgpt-api |
+| LanLan69            | Library     | Python   | Open Source   | https://github.com/LanLan69/easyChatGPT            |
+| PawanOsman          | API/Library | C#       | Open Source   | https://github.com/PawanOsman/ChatGPT.Net/         |
+| tonyb               | API (Paid)  | NodeJS   | Closed Source | https://justbrowse.io/                             |
 
 ## acheong08
 
