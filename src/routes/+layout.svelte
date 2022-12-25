@@ -4,6 +4,5 @@
 </script>
 
 <Header />
-<div class="my-5">
-	<slot />
-</div>
+
+<slot />

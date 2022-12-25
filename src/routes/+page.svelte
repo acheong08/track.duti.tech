@@ -1,4 +1,9 @@
-<div class="hero min-h-screen bg-base-200">
+<script lang="ts">
+	import AI_art from '$lib/images/backdrop.webp';
+</script>
+
+<div class="hero min-h-screen bg-base-100 " style="background-image: url({AI_art});">
+	<div class="hero-overlay bg-opacity-90" />
 	<div class="hero-content text-center">
 		<div class="max-w-full">
 			<h1 class="text-5xl font-bold ">Artificial Intelligence is Rising</h1>
