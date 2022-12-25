@@ -34,7 +34,16 @@ Probably the best local development library
 
 ### Features
 
-TODO
+- Captcha solving (paid)
+
+## LanLan69
+
+A newer Python development library for ChatGPT. A replacement for the old `revChatGPT`
+
+### Features
+
+- Fast captcha solving
+- Automated browser
 
 ## PawanOsman
 
