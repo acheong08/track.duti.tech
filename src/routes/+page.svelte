@@ -6,7 +6,7 @@
 				From natural language processing to image generation, AI is changing the way we live. Now is
 				a better time than ever to learn about AI.
 			</p>
-			<button class="btn btn-primary">Learn more</button>
+			<a href="/about"><button class="btn btn-primary">Learn more</button></a>
 		</div>
 	</div>
 </div>
