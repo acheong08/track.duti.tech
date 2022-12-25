@@ -33,7 +33,7 @@
 		</ul>
 	</div>
 </div>
-<div class="text-sm breadcrumbs max-w-sm flex-1">
+<div class="text-sm breadcrumbs max-w-sm flex-1 m-2">
 	<ul>
 		{#each pathList as path, i}
 			{#if i === 0}
