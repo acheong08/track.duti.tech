@@ -34,6 +34,9 @@ const config = {
       fallback: null,
       precompress: false,
     }),
+    prerender: {
+      handleMissingId: "ignore",
+    },
   },
 };
 
