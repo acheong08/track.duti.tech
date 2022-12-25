@@ -7,7 +7,7 @@
 	class="navbar bg-base-100/25 backdrop-blur text-primary-content rounded-xm p-0 max-h-1 sticky top-0 z-50 relative max-w-full"
 >
 	<div class="flex-1">
-		<a class="btn btn-ghost normal-case text-xl" href="/">__name__</a>
+		<a class="btn btn-ghost normal-case text-xl" href="/">AI Tracker</a>
 	</div>
 	<div class="flex-initial">
 		<ul class="menu menu-horizontal mx-10">
