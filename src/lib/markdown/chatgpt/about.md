@@ -13,7 +13,32 @@ _Note: Libraries can only be used within the specified language. APIs work via H
 | Author              | Type        | Language | Status        | Source                                             |
 | ------------------- | ----------- | -------- | ------------- | -------------------------------------------------- |
 | acheong08           | API         | Go/JS    | Open Source   | https://github.com/ChatGPT-Hackers/                |
-| Rawa                | API         | ?        | Closed source | #waitlist                                          |
 | transitive-bullshit | Library     | NodeJS   | Open source   | https://github.com/transitive-bullshit/chatgpt-api |
 | PawanOsman          | API/Library | C#       | Open source   | https://github.com/PawanOsman/ChatGPT.Net/         |
-| tonyb               | API         | NodeJS   | Closed source | https://justbrowse.io/                             |
+| tonyb               | API (Paid)  | NodeJS   | Closed source | https://justbrowse.io/                             |
+
+## acheong08
+
+Probably the best self-hosted API
+
+### Features
+
+- Multi account pool
+- Protect your server with authentication
+- Multiple agents can live in one window (Least RAM used)
+
+## transitive-bullshit
+
+Probably the best local development library
+
+### Features
+
+TODO
+
+## PawanOsman
+
+TODO
+
+## tonyb
+
+**WARNING**: **This is a paid service**
