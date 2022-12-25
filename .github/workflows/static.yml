@@ -19,6 +19,3 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: public # The folder the action should deploy.
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
