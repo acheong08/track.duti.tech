@@ -25,8 +25,11 @@ Probably the best self-hosted API
 ### Features
 
 - Multi account pool
-- Protect your server with authentication
 - Multiple agents can live in one window (Least RAM used)
+- Protect your server with authentication
+- Email/Password autofill
+- Automatic cloudflare bypass
+- Persistent conversations
 
 ## transitive-bullshit
 
@@ -34,7 +37,9 @@ Probably the best local development library
 
 ### Features
 
-- Captcha solving (paid)
+- Captcha solving (third party)
+- Cloudflare bypass
+- A ton of other features
 
 ## LanLan69
 
