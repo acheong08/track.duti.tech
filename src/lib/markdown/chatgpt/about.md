@@ -13,6 +13,7 @@ _Note: Libraries can only be used within the specified language. APIs work via H
 | Author              | Type        | Language | Status        | Source                                             |
 | ------------------- | ----------- | -------- | ------------- | -------------------------------------------------- |
 | acheong08           | API         | Go/JS    | Open Source   | https://github.com/ChatGPT-Hackers/                |
+| acheong08           | Library     | Python   | Open Source   | https://github.com/acheong08/ChatGPT               |
 | transitive-bullshit | Library     | NodeJS   | Open Source   | https://github.com/transitive-bullshit/chatgpt-api |
 | LanLan69            | Library     | Python   | Open Source   | https://github.com/LanLan69/easyChatGPT            |
 | PawanOsman          | API/Library | C#       | Open Source   | https://github.com/PawanOsman/ChatGPT.Net/         |
@@ -20,9 +21,9 @@ _Note: Libraries can only be used within the specified language. APIs work via H
 
 ## acheong08
 
-Probably the best self-hosted API
+### API
 
-### Features
+#### Features
 
 - Multi account pool
 - Multiple agents can live in one window (Least RAM used)
@@ -31,9 +32,20 @@ Probably the best self-hosted API
 - Automatic cloudflare bypass
 - Persistent conversations
 
-## transitive-bullshit
+### Library
 
-Probably the best local development library
+The ultimate original library. It has once again been revived with new bypass techniques. 
+
+#### Features
+
+- Lightweight
+- Can be headless with Xvfb
+- Extremely simple API (Just `ask(prompt)`)
+- Robust error handling
+- Automatic token refresh
+- Automatic cf_clearance refresh
+
+## transitive-bullshit
 
 ### Features
 
