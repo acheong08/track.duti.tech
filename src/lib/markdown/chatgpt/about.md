@@ -47,7 +47,20 @@ A newer Python development library for ChatGPT. A replacement for the old `revCh
 
 ## PawanOsman
 
-TODO
+The ChatGPT.Net Unofficial .Net API for ChatGPT is a C# library that allows developers to access ChatGPT, a chat-based language model. With this API, developers can send queries to ChatGPT and receive responses in real-time, making it easy to integrate ChatGPT into their own applications.
+
+### Features
+
+-   Automatic login to ChatGPT using Microsoft accounts or SessionToken.
+-   Bypass of Cloudflare protection and fake rate limit protection.
+-   Persistent cookie storage to allow for application restart without requiring login.
+-   Functionality to reset conversations or create multiple conversations simultaneously.
+-   Automatic refresh of ChatGPT access token and Cloudflare cf_clearance cookie for uninterrupted use.
+-   Efficient use of server resources through the use of a single browser window/tab for managing and using multiple accounts in the same time.
+-   Cache system enabled by default, with cached data saved to cache.json to reduce requests to ChatGPT endpoint and reduce rate limiting.
+-   Ability to delete all conversations created by the user's account or a specific conversation by its ID.
+-   Automatic deletion of all conversations at a specified interval.
+-   Automatic deletion of inactive conversations.
 
 ## tonyb
 
