@@ -1,4 +1,4 @@
-import{S as v,i as P,s as y,L as w,k as u,l as h,m as d,h as l,n as p,b as f,E as m,M as _,f as b,t as g,B as o,w as k,x as C,y as A,z as T,q as G,r as I}from"../../../../chunks/index-317a2139.js";import{S as L}from"../../../../chunks/SvelteMarkdown-8af5c757.js";const S=`# ChatGPT
+import{S as v,i as y,s as P,L as w,k as u,l as h,m as d,h as c,n as p,b as m,E as f,M as k,f as b,t as g,B as o,w as _,x as C,y as A,z as T,q as G,r as I}from"../../../../chunks/index-317a2139.js";import{S as L}from"../../../../chunks/SvelteMarkdown-8af5c757.js";const S=`# ChatGPT
 
 ChatGPT is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3.5 family of large language models, and is fine-tuned with both supervised and reinforcement learning techniques.
 
@@ -13,6 +13,7 @@ _Note: Libraries can only be used within the specified language. APIs work via H
 | Author              | Type        | Language | Status        | Source                                             |
 | ------------------- | ----------- | -------- | ------------- | -------------------------------------------------- |
 | acheong08           | API         | Go/JS    | Open Source   | https://github.com/ChatGPT-Hackers/                |
+| acheong08           | Library     | Python   | Open Source   | https://github.com/acheong08/ChatGPT               |
 | transitive-bullshit | Library     | NodeJS   | Open Source   | https://github.com/transitive-bullshit/chatgpt-api |
 | LanLan69            | Library     | Python   | Open Source   | https://github.com/LanLan69/easyChatGPT            |
 | PawanOsman          | API/Library | C#       | Open Source   | https://github.com/PawanOsman/ChatGPT.Net/         |
@@ -20,9 +21,9 @@ _Note: Libraries can only be used within the specified language. APIs work via H
 
 ## acheong08
 
-Probably the best self-hosted API
+### API
 
-### Features
+#### Features
 
 - Multi account pool
 - Multiple agents can live in one window (Least RAM used)
@@ -31,9 +32,20 @@ Probably the best self-hosted API
 - Automatic cloudflare bypass
 - Persistent conversations
 
-## transitive-bullshit
+### Library
 
-Probably the best local development library
+The ultimate original library. It has once again been revived with new bypass techniques. 
+
+#### Features
+
+- Lightweight
+- Can be headless with Xvfb
+- Extremely simple API (Just \`ask(prompt)\`)
+- Robust error handling
+- Automatic token refresh
+- Automatic cf_clearance refresh
+
+## transitive-bullshit
 
 ### Features
 
@@ -70,4 +82,4 @@ The ChatGPT.Net Unofficial .Net API for ChatGPT is a C# library that allows deve
 ## tonyb
 
 **WARNING**: **This is a paid service**
-`;function N(s){return{c:o,l:o,m:o,p:o,i:o,o,d:o}}function x(s){let e,a;return e=new L({props:{source:s[0]}}),{c(){k(e.$$.fragment)},l(t){C(e.$$.fragment,t)},m(t,n){A(e,t,n),a=!0},p:o,i(t){a||(b(e.$$.fragment,t),a=!0)},o(t){g(e.$$.fragment,t),a=!1},d(t){T(e,t)}}}function O(s){let e,a;return{c(){e=u("div"),a=G("Loading...")},l(t){e=h(t,"DIV",{});var n=d(e);a=I(n,"Loading..."),n.forEach(l)},m(t,n){f(t,e,n),m(e,a)},p:o,i:o,o,d(t){t&&l(e)}}}function $(s){let e,a,t,n={ctx:s,current:null,token:null,hasCatch:!1,pending:O,then:x,catch:N,value:0,blocks:[,,,]};return w(S,n),{c(){e=u("div"),a=u("article"),n.block.c(),this.h()},l(r){e=h(r,"DIV",{class:!0});var i=d(e);a=h(i,"ARTICLE",{class:!0});var c=d(a);n.block.l(c),c.forEach(l),i.forEach(l),this.h()},h(){p(a,"class","flex-auto prose max-w-screen-lg text-lg"),p(e,"class","container max-w-fit m-2")},m(r,i){f(r,e,i),m(e,a),n.block.m(a,n.anchor=null),n.mount=()=>a,n.anchor=null,t=!0},p(r,[i]){s=r,_(n,s,i)},i(r){t||(b(n.block),t=!0)},o(r){for(let i=0;i<3;i+=1){const c=n.blocks[i];g(c)}t=!1},d(r){r&&l(e),n.block.d(),n.token=null,n=null}}}class F extends v{constructor(e){super(),P(this,e,null,$,y,{})}}export{F as default};
+`;function x(s){return{c:o,l:o,m:o,p:o,i:o,o,d:o}}function N(s){let e,a;return e=new L({props:{source:s[0]}}),{c(){_(e.$$.fragment)},l(n){C(e.$$.fragment,n)},m(n,t){A(e,n,t),a=!0},p:o,i(n){a||(b(e.$$.fragment,n),a=!0)},o(n){g(e.$$.fragment,n),a=!1},d(n){T(e,n)}}}function O(s){let e,a;return{c(){e=u("div"),a=G("Loading...")},l(n){e=h(n,"DIV",{});var t=d(e);a=I(t,"Loading..."),t.forEach(c)},m(n,t){m(n,e,t),f(e,a)},p:o,i:o,o,d(n){n&&c(e)}}}function q(s){let e,a,n,t={ctx:s,current:null,token:null,hasCatch:!1,pending:O,then:N,catch:x,value:0,blocks:[,,,]};return w(S,t),{c(){e=u("div"),a=u("article"),t.block.c(),this.h()},l(r){e=h(r,"DIV",{class:!0});var i=d(e);a=h(i,"ARTICLE",{class:!0});var l=d(a);t.block.l(l),l.forEach(c),i.forEach(c),this.h()},h(){p(a,"class","flex-auto prose max-w-screen-lg text-lg"),p(e,"class","container max-w-fit m-2")},m(r,i){m(r,e,i),f(e,a),t.block.m(a,t.anchor=null),t.mount=()=>a,t.anchor=null,n=!0},p(r,[i]){s=r,k(t,s,i)},i(r){n||(b(t.block),n=!0)},o(r){for(let i=0;i<3;i+=1){const l=t.blocks[i];g(l)}n=!1},d(r){r&&c(e),t.block.d(),t.token=null,t=null}}}class F extends v{constructor(e){super(),y(this,e,null,q,P,{})}}export{F as default};
