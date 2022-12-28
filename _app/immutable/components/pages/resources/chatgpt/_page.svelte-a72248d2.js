@@ -1,4 +1,4 @@
-import{S as v,i as y,s as P,L as w,k as u,l as h,m as d,h as c,n as p,b as m,E as f,M as k,f as b,t as g,B as o,w as _,x as C,y as A,z as T,q as G,r as I}from"../../../../chunks/index-317a2139.js";import{S as L}from"../../../../chunks/SvelteMarkdown-8af5c757.js";const S=`# ChatGPT
+import{S as v,i as y,s as P,L as w,k as u,l as h,m as d,h as c,n as p,b as m,E as f,M as k,f as b,t as g,B as o,w as _,x as A,y as C,z as T,q as G,r as I}from"../../../../chunks/index-317a2139.js";import{S as L}from"../../../../chunks/SvelteMarkdown-8af5c757.js";const S=`# ChatGPT
 
 ChatGPT is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3.5 family of large language models, and is fine-tuned with both supervised and reinforcement learning techniques.
 
@@ -44,6 +44,9 @@ The ultimate original library. It has once again been revived with new bypass te
 - Robust error handling
 - Automatic token refresh
 - Automatic cf_clearance refresh
+- Automatic captcha solving
+- Email/Password login
+- Microsoft login
 
 ## transitive-bullshit
 
@@ -82,4 +85,4 @@ The ChatGPT.Net Unofficial .Net API for ChatGPT is a C# library that allows deve
 ## tonyb
 
 **WARNING**: **This is a paid service**
-`;function x(s){return{c:o,l:o,m:o,p:o,i:o,o,d:o}}function N(s){let e,a;return e=new L({props:{source:s[0]}}),{c(){_(e.$$.fragment)},l(n){C(e.$$.fragment,n)},m(n,t){A(e,n,t),a=!0},p:o,i(n){a||(b(e.$$.fragment,n),a=!0)},o(n){g(e.$$.fragment,n),a=!1},d(n){T(e,n)}}}function O(s){let e,a;return{c(){e=u("div"),a=G("Loading...")},l(n){e=h(n,"DIV",{});var t=d(e);a=I(t,"Loading..."),t.forEach(c)},m(n,t){m(n,e,t),f(e,a)},p:o,i:o,o,d(n){n&&c(e)}}}function q(s){let e,a,n,t={ctx:s,current:null,token:null,hasCatch:!1,pending:O,then:N,catch:x,value:0,blocks:[,,,]};return w(S,t),{c(){e=u("div"),a=u("article"),t.block.c(),this.h()},l(r){e=h(r,"DIV",{class:!0});var i=d(e);a=h(i,"ARTICLE",{class:!0});var l=d(a);t.block.l(l),l.forEach(c),i.forEach(c),this.h()},h(){p(a,"class","flex-auto prose max-w-screen-lg text-lg"),p(e,"class","container max-w-fit m-2")},m(r,i){m(r,e,i),f(e,a),t.block.m(a,t.anchor=null),t.mount=()=>a,t.anchor=null,n=!0},p(r,[i]){s=r,k(t,s,i)},i(r){n||(b(t.block),n=!0)},o(r){for(let i=0;i<3;i+=1){const l=t.blocks[i];g(l)}n=!1},d(r){r&&c(e),t.block.d(),t.token=null,t=null}}}class F extends v{constructor(e){super(),y(this,e,null,q,P,{})}}export{F as default};
+`;function x(s){return{c:o,l:o,m:o,p:o,i:o,o,d:o}}function N(s){let e,a;return e=new L({props:{source:s[0]}}),{c(){_(e.$$.fragment)},l(n){A(e.$$.fragment,n)},m(n,t){C(e,n,t),a=!0},p:o,i(n){a||(b(e.$$.fragment,n),a=!0)},o(n){g(e.$$.fragment,n),a=!1},d(n){T(e,n)}}}function O(s){let e,a;return{c(){e=u("div"),a=G("Loading...")},l(n){e=h(n,"DIV",{});var t=d(e);a=I(t,"Loading..."),t.forEach(c)},m(n,t){m(n,e,t),f(e,a)},p:o,i:o,o,d(n){n&&c(e)}}}function E(s){let e,a,n,t={ctx:s,current:null,token:null,hasCatch:!1,pending:O,then:N,catch:x,value:0,blocks:[,,,]};return w(S,t),{c(){e=u("div"),a=u("article"),t.block.c(),this.h()},l(r){e=h(r,"DIV",{class:!0});var i=d(e);a=h(i,"ARTICLE",{class:!0});var l=d(a);t.block.l(l),l.forEach(c),i.forEach(c),this.h()},h(){p(a,"class","flex-auto prose max-w-screen-lg text-lg"),p(e,"class","container max-w-fit m-2")},m(r,i){m(r,e,i),f(e,a),t.block.m(a,t.anchor=null),t.mount=()=>a,t.anchor=null,n=!0},p(r,[i]){s=r,k(t,s,i)},i(r){n||(b(t.block),n=!0)},o(r){for(let i=0;i<3;i+=1){const l=t.blocks[i];g(l)}n=!1},d(r){r&&c(e),t.block.d(),t.token=null,t=null}}}class F extends v{constructor(e){super(),y(this,e,null,E,P,{})}}export{F as default};
