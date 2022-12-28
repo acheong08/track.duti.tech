@@ -49,6 +49,7 @@ The ultimate original library. It has once again been revived with new bypass te
 - Microsoft login
 
 ## transitive-bullshit
+This is the best JS library for ChatGPT. Most features you will find in other libraries can be found here as well.
 
 ### Features
 
