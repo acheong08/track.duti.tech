@@ -44,6 +44,9 @@ The ultimate original library. It has once again been revived with new bypass te
 - Robust error handling
 - Automatic token refresh
 - Automatic cf_clearance refresh
+- Automatic captcha solving
+- Email/Password login
+- Microsoft login
 
 ## transitive-bullshit
 
