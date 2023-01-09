@@ -1,4 +1,4 @@
-import{S as v,i as y,s as P,L as w,k as u,l as h,m as d,h as c,n as f,b as p,E as m,M as A,f as b,t as g,B as o,w as k,x as C,y as _,z as T,q as G,r as I}from"../../../../chunks/index-317a2139.js";import{S as L}from"../../../../chunks/SvelteMarkdown-8af5c757.js";const S=`# ChatGPT
+import{S as v,i as y,s as P,L as w,k as u,l as h,m as d,h as c,n as f,b as p,E as m,M as C,f as b,t as g,B as o,w as A,x as k,y as _,z as T,q as G,r as I}from"../../../../chunks/index-317a2139.js";import{S as L}from"../../../../chunks/SvelteMarkdown-8af5c757.js";const S=`# ChatGPT
 
 ChatGPT is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3.5 family of large language models, and is fine-tuned with both supervised and reinforcement learning techniques. 
 
@@ -14,10 +14,10 @@ _Note: Libraries can only be used within the specified language. APIs work via H
 | ------------------- | ----------- | -------- | ------------- | -------------------------------------------------- |
 | acheong08           | API         | Go/JS    | Open Source   | https://github.com/ChatGPT-Hackers/                |
 | acheong08           | Library     | Python   | Open Source   | https://github.com/acheong08/ChatGPT               |
-| acheong08           | Library     | Python   | Open Source   | https://github.com/acheong08/ChatGPT-lite               |
+| acheong08           | Library     | Python   | Closed Source | https://github.com/acheong08/ChatGPT-lite               |
 | transitive-bullshit | Library     | NodeJS   | Open Source   | https://github.com/transitive-bullshit/chatgpt-api |
 | LanLan69            | Library     | Python   | Open Source   | https://github.com/LanLan69/easyChatGPT            |
-| PawanOsman          | API/Library | C#       | Open Source   | https://github.com/PawanOsman/ChatGPT.Net/         |
+| PawanOsman          | API/Library | C#       | Closed Source | https://github.com/PawanOsman/ChatGPT.Net/         |
 | tonyb               | API (Paid)  | NodeJS   | Closed Source | https://justbrowse.io/                             |
 
 ## acheong08
@@ -51,6 +51,8 @@ The ultimate original library. It has once again been revived with new bypass te
 ### Lite
 
 A browserless version using a public Cloudflare bypass server by PawanOsman
+
+The bypass is closed source but the library is open source
 
 #### Features
 
@@ -96,4 +98,4 @@ The ChatGPT.Net Unofficial .Net API for ChatGPT is a C# library that allows deve
 ## tonyb
 
 **WARNING**: **This is a paid service**
-`;function O(s){return{c:o,l:o,m:o,p:o,i:o,o,d:o}}function x(s){let e,a;return e=new L({props:{source:s[0]}}),{c(){k(e.$$.fragment)},l(n){C(e.$$.fragment,n)},m(n,t){_(e,n,t),a=!0},p:o,i(n){a||(b(e.$$.fragment,n),a=!0)},o(n){g(e.$$.fragment,n),a=!1},d(n){T(e,n)}}}function N(s){let e,a;return{c(){e=u("div"),a=G("Loading...")},l(n){e=h(n,"DIV",{});var t=d(e);a=I(t,"Loading..."),t.forEach(c)},m(n,t){p(n,e,t),m(e,a)},p:o,i:o,o,d(n){n&&c(e)}}}function E(s){let e,a,n,t={ctx:s,current:null,token:null,hasCatch:!1,pending:N,then:x,catch:O,value:0,blocks:[,,,]};return w(S,t),{c(){e=u("div"),a=u("article"),t.block.c(),this.h()},l(r){e=h(r,"DIV",{class:!0});var i=d(e);a=h(i,"ARTICLE",{class:!0});var l=d(a);t.block.l(l),l.forEach(c),i.forEach(c),this.h()},h(){f(a,"class","flex-auto prose max-w-screen-lg text-lg"),f(e,"class","container max-w-fit m-2")},m(r,i){p(r,e,i),m(e,a),t.block.m(a,t.anchor=null),t.mount=()=>a,t.anchor=null,n=!0},p(r,[i]){s=r,A(t,s,i)},i(r){n||(b(t.block),n=!0)},o(r){for(let i=0;i<3;i+=1){const l=t.blocks[i];g(l)}n=!1},d(r){r&&c(e),t.block.d(),t.token=null,t=null}}}class M extends v{constructor(e){super(),y(this,e,null,E,P,{})}}export{M as default};
+`;function x(i){return{c:o,l:o,m:o,p:o,i:o,o,d:o}}function N(i){let e,a;return e=new L({props:{source:i[0]}}),{c(){A(e.$$.fragment)},l(n){k(e.$$.fragment,n)},m(n,t){_(e,n,t),a=!0},p:o,i(n){a||(b(e.$$.fragment,n),a=!0)},o(n){g(e.$$.fragment,n),a=!1},d(n){T(e,n)}}}function O(i){let e,a;return{c(){e=u("div"),a=G("Loading...")},l(n){e=h(n,"DIV",{});var t=d(e);a=I(t,"Loading..."),t.forEach(c)},m(n,t){p(n,e,t),m(e,a)},p:o,i:o,o,d(n){n&&c(e)}}}function E(i){let e,a,n,t={ctx:i,current:null,token:null,hasCatch:!1,pending:O,then:N,catch:x,value:0,blocks:[,,,]};return w(S,t),{c(){e=u("div"),a=u("article"),t.block.c(),this.h()},l(s){e=h(s,"DIV",{class:!0});var r=d(e);a=h(r,"ARTICLE",{class:!0});var l=d(a);t.block.l(l),l.forEach(c),r.forEach(c),this.h()},h(){f(a,"class","flex-auto prose max-w-screen-lg text-lg"),f(e,"class","container max-w-fit m-2")},m(s,r){p(s,e,r),m(e,a),t.block.m(a,t.anchor=null),t.mount=()=>a,t.anchor=null,n=!0},p(s,[r]){i=s,C(t,i,r)},i(s){n||(b(t.block),n=!0)},o(s){for(let r=0;r<3;r+=1){const l=t.blocks[r];g(l)}n=!1},d(s){s&&c(e),t.block.d(),t.token=null,t=null}}}class M extends v{constructor(e){super(),y(this,e,null,E,P,{})}}export{M as default};
