@@ -1,8 +1,8 @@
 # ChatGPT
 
-ChatGPT is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3.5 family of large language models, and is fine-tuned with both supervised and reinforcement learning techniques.
+ChatGPT is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3.5 family of large language models, and is fine-tuned with both supervised and reinforcement learning techniques. 
 
-ChatGPT was launched as a prototype on November 30, 2022, and quickly garnered attention for its detailed responses and articulate answers across many domains of knowledge. Its uneven factual accuracy was identified as a significant drawback.
+It quickly garnered attention for its detailed responses and articulate answers across many domains of knowledge. Its uneven factual accuracy was identified as a significant drawback.
 
 ## ChatGPT development
 
@@ -14,6 +14,7 @@ _Note: Libraries can only be used within the specified language. APIs work via H
 | ------------------- | ----------- | -------- | ------------- | -------------------------------------------------- |
 | acheong08           | API         | Go/JS    | Open Source   | https://github.com/ChatGPT-Hackers/                |
 | acheong08           | Library     | Python   | Open Source   | https://github.com/acheong08/ChatGPT               |
+| acheong08           | Library     | Python   | Open Source   | https://github.com/acheong08/ChatGPT-lite               |
 | transitive-bullshit | Library     | NodeJS   | Open Source   | https://github.com/transitive-bullshit/chatgpt-api |
 | LanLan69            | Library     | Python   | Open Source   | https://github.com/LanLan69/easyChatGPT            |
 | PawanOsman          | API/Library | C#       | Open Source   | https://github.com/PawanOsman/ChatGPT.Net/         |
@@ -38,7 +39,6 @@ The ultimate original library. It has once again been revived with new bypass te
 
 #### Features
 
-- Lightweight
 - Can be headless with Xvfb
 - Extremely simple API (Just `ask(prompt)`)
 - Robust error handling
@@ -47,6 +47,16 @@ The ultimate original library. It has once again been revived with new bypass te
 - Automatic captcha solving
 - Email/Password login
 - Microsoft login
+
+### Lite
+
+A browserless version using a public Cloudflare bypass server by PawanOsman
+
+#### Features
+
+- No browser
+- Async
+- Automatic token refresh
 
 ## transitive-bullshit
 This is the best JS library for ChatGPT. Most features you will find in other libraries can be found here as well.
