@@ -14,10 +14,10 @@ _Note: Libraries can only be used within the specified language. APIs work via H
 | ------------------- | ----------- | -------- | ------------- | -------------------------------------------------- |
 | acheong08           | API         | Go/JS    | Open Source   | https://github.com/ChatGPT-Hackers/                |
 | acheong08           | Library     | Python   | Open Source   | https://github.com/acheong08/ChatGPT               |
-| acheong08           | Library     | Python   | Open Source   | https://github.com/acheong08/ChatGPT-lite               |
+| acheong08           | Library     | Python   | Closed Source | https://github.com/acheong08/ChatGPT-lite               |
 | transitive-bullshit | Library     | NodeJS   | Open Source   | https://github.com/transitive-bullshit/chatgpt-api |
 | LanLan69            | Library     | Python   | Open Source   | https://github.com/LanLan69/easyChatGPT            |
-| PawanOsman          | API/Library | C#       | Open Source   | https://github.com/PawanOsman/ChatGPT.Net/         |
+| PawanOsman          | API/Library | C#       | Closed Source | https://github.com/PawanOsman/ChatGPT.Net/         |
 | tonyb               | API (Paid)  | NodeJS   | Closed Source | https://justbrowse.io/                             |
 
 ## acheong08
@@ -51,6 +51,8 @@ The ultimate original library. It has once again been revived with new bypass te
 ### Lite
 
 A browserless version using a public Cloudflare bypass server by PawanOsman
+
+The bypass is closed source but the library is open source
 
 #### Features
 
