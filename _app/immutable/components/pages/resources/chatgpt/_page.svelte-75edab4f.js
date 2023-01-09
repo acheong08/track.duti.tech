@@ -1,8 +1,8 @@
-import{S as v,i as y,s as w,L as P,k as u,l as h,m as d,h as c,n as f,b as p,E as m,M as k,f as b,t as g,B as o,w as C,x as _,y as A,z as T,q as G,r as I}from"../../../../chunks/index-317a2139.js";import{S as L}from"../../../../chunks/SvelteMarkdown-8af5c757.js";const S=`# ChatGPT
+import{S as v,i as y,s as P,L as w,k as u,l as h,m as d,h as c,n as f,b as p,E as m,M as A,f as b,t as g,B as o,w as k,x as C,y as _,z as T,q as G,r as I}from"../../../../chunks/index-317a2139.js";import{S as L}from"../../../../chunks/SvelteMarkdown-8af5c757.js";const S=`# ChatGPT
 
-ChatGPT is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3.5 family of large language models, and is fine-tuned with both supervised and reinforcement learning techniques.
+ChatGPT is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3.5 family of large language models, and is fine-tuned with both supervised and reinforcement learning techniques. 
 
-ChatGPT was launched as a prototype on November 30, 2022, and quickly garnered attention for its detailed responses and articulate answers across many domains of knowledge. Its uneven factual accuracy was identified as a significant drawback.
+It quickly garnered attention for its detailed responses and articulate answers across many domains of knowledge. Its uneven factual accuracy was identified as a significant drawback.
 
 ## ChatGPT development
 
@@ -14,6 +14,7 @@ _Note: Libraries can only be used within the specified language. APIs work via H
 | ------------------- | ----------- | -------- | ------------- | -------------------------------------------------- |
 | acheong08           | API         | Go/JS    | Open Source   | https://github.com/ChatGPT-Hackers/                |
 | acheong08           | Library     | Python   | Open Source   | https://github.com/acheong08/ChatGPT               |
+| acheong08           | Library     | Python   | Open Source   | https://github.com/acheong08/ChatGPT-lite               |
 | transitive-bullshit | Library     | NodeJS   | Open Source   | https://github.com/transitive-bullshit/chatgpt-api |
 | LanLan69            | Library     | Python   | Open Source   | https://github.com/LanLan69/easyChatGPT            |
 | PawanOsman          | API/Library | C#       | Open Source   | https://github.com/PawanOsman/ChatGPT.Net/         |
@@ -38,7 +39,6 @@ The ultimate original library. It has once again been revived with new bypass te
 
 #### Features
 
-- Lightweight
 - Can be headless with Xvfb
 - Extremely simple API (Just \`ask(prompt)\`)
 - Robust error handling
@@ -47,6 +47,16 @@ The ultimate original library. It has once again been revived with new bypass te
 - Automatic captcha solving
 - Email/Password login
 - Microsoft login
+
+### Lite
+
+A browserless version using a public Cloudflare bypass server by PawanOsman
+
+#### Features
+
+- No browser
+- Async
+- Automatic token refresh
 
 ## transitive-bullshit
 This is the best JS library for ChatGPT. Most features you will find in other libraries can be found here as well.
@@ -86,4 +96,4 @@ The ChatGPT.Net Unofficial .Net API for ChatGPT is a C# library that allows deve
 ## tonyb
 
 **WARNING**: **This is a paid service**
-`;function x(s){return{c:o,l:o,m:o,p:o,i:o,o,d:o}}function N(s){let e,a;return e=new L({props:{source:s[0]}}),{c(){C(e.$$.fragment)},l(n){_(e.$$.fragment,n)},m(n,t){A(e,n,t),a=!0},p:o,i(n){a||(b(e.$$.fragment,n),a=!0)},o(n){g(e.$$.fragment,n),a=!1},d(n){T(e,n)}}}function O(s){let e,a;return{c(){e=u("div"),a=G("Loading...")},l(n){e=h(n,"DIV",{});var t=d(e);a=I(t,"Loading..."),t.forEach(c)},m(n,t){p(n,e,t),m(e,a)},p:o,i:o,o,d(n){n&&c(e)}}}function E(s){let e,a,n,t={ctx:s,current:null,token:null,hasCatch:!1,pending:O,then:N,catch:x,value:0,blocks:[,,,]};return P(S,t),{c(){e=u("div"),a=u("article"),t.block.c(),this.h()},l(r){e=h(r,"DIV",{class:!0});var i=d(e);a=h(i,"ARTICLE",{class:!0});var l=d(a);t.block.l(l),l.forEach(c),i.forEach(c),this.h()},h(){f(a,"class","flex-auto prose max-w-screen-lg text-lg"),f(e,"class","container max-w-fit m-2")},m(r,i){p(r,e,i),m(e,a),t.block.m(a,t.anchor=null),t.mount=()=>a,t.anchor=null,n=!0},p(r,[i]){s=r,k(t,s,i)},i(r){n||(b(t.block),n=!0)},o(r){for(let i=0;i<3;i+=1){const l=t.blocks[i];g(l)}n=!1},d(r){r&&c(e),t.block.d(),t.token=null,t=null}}}class $ extends v{constructor(e){super(),y(this,e,null,E,w,{})}}export{$ as default};
+`;function O(s){return{c:o,l:o,m:o,p:o,i:o,o,d:o}}function x(s){let e,a;return e=new L({props:{source:s[0]}}),{c(){k(e.$$.fragment)},l(n){C(e.$$.fragment,n)},m(n,t){_(e,n,t),a=!0},p:o,i(n){a||(b(e.$$.fragment,n),a=!0)},o(n){g(e.$$.fragment,n),a=!1},d(n){T(e,n)}}}function N(s){let e,a;return{c(){e=u("div"),a=G("Loading...")},l(n){e=h(n,"DIV",{});var t=d(e);a=I(t,"Loading..."),t.forEach(c)},m(n,t){p(n,e,t),m(e,a)},p:o,i:o,o,d(n){n&&c(e)}}}function E(s){let e,a,n,t={ctx:s,current:null,token:null,hasCatch:!1,pending:N,then:x,catch:O,value:0,blocks:[,,,]};return w(S,t),{c(){e=u("div"),a=u("article"),t.block.c(),this.h()},l(r){e=h(r,"DIV",{class:!0});var i=d(e);a=h(i,"ARTICLE",{class:!0});var l=d(a);t.block.l(l),l.forEach(c),i.forEach(c),this.h()},h(){f(a,"class","flex-auto prose max-w-screen-lg text-lg"),f(e,"class","container max-w-fit m-2")},m(r,i){p(r,e,i),m(e,a),t.block.m(a,t.anchor=null),t.mount=()=>a,t.anchor=null,n=!0},p(r,[i]){s=r,A(t,s,i)},i(r){n||(b(t.block),n=!0)},o(r){for(let i=0;i<3;i+=1){const l=t.blocks[i];g(l)}n=!1},d(r){r&&c(e),t.block.d(),t.token=null,t=null}}}class M extends v{constructor(e){super(),y(this,e,null,E,P,{})}}export{M as default};

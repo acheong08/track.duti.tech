@@ -8,14 +8,14 @@
     <meta name="description" content="A wiki for AI" />
     <meta http-equiv="content-security-policy" content="">
 		<link href="../../_app/immutable/assets/_layout-e8bc880d.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/start-07f01034.js">
+		<link rel="modulepreload" href="../../_app/immutable/start-1bee8b2d.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index-317a2139.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons-1eb5e80b.js">
 		<link rel="modulepreload" href="../../_app/immutable/components/pages/_layout.svelte-002cd305.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/stores-85dbfd97.js">
 		<link rel="modulepreload" href="../../_app/immutable/modules/pages/_layout.ts-5612100c.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/_layout-79cb23d1.js">
-		<link rel="modulepreload" href="../../_app/immutable/components/pages/resources/chatgpt/_page.svelte-27cfa447.js">
+		<link rel="modulepreload" href="../../_app/immutable/components/pages/resources/chatgpt/_page.svelte-75edab4f.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/SvelteMarkdown-8af5c757.js">
   </head>
   <body>
@@ -37,7 +37,7 @@
 
 <div class="container max-w-fit m-2"><article class="flex-auto prose max-w-screen-lg text-lg">
 		
-			<h1 id="chatgpt">ChatGPT</h1><p>ChatGPT is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3.5 family of large language models, and is fine-tuned with both supervised and reinforcement learning techniques.</p><p>ChatGPT was launched as a prototype on November 30, 2022, and quickly garnered attention for its detailed responses and articulate answers across many domains of knowledge. Its uneven factual accuracy was identified as a significant drawback.</p><h2 id="chatgpt-development">ChatGPT development</h2><p>As it is currently in an open beta, there is no official API. However, there are developers that have reverse engineered their protocol. You can view the available APIs and Libraries below:</p><p><em>Note: Libraries can only be used within the specified language. APIs work via HTTP so any language can utilize it</em></p><table><thead><tr><th align="center">Author
+			<h1 id="chatgpt">ChatGPT</h1><p>ChatGPT is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3.5 family of large language models, and is fine-tuned with both supervised and reinforcement learning techniques. </p><p>It quickly garnered attention for its detailed responses and articulate answers across many domains of knowledge. Its uneven factual accuracy was identified as a significant drawback.</p><h2 id="chatgpt-development">ChatGPT development</h2><p>As it is currently in an open beta, there is no official API. However, there are developers that have reverse engineered their protocol. You can view the available APIs and Libraries below:</p><p><em>Note: Libraries can only be used within the specified language. APIs work via HTTP so any language can utilize it</em></p><table><thead><tr><th align="center">Author
               </th><th align="center">Type
               </th><th align="center">Language
               </th><th align="center">Status
@@ -54,6 +54,12 @@
                 </td><td align="center">Python
                 </td><td align="center">Open Source
                 </td><td align="center"><a href="https://github.com/acheong08/ChatGPT">https://github.com/acheong08/ChatGPT</a>
+                </td>
+            </tr><tr><td align="center">acheong08
+                </td><td align="center">Library
+                </td><td align="center">Python
+                </td><td align="center">Open Source
+                </td><td align="center"><a href="https://github.com/acheong08/ChatGPT-lite">https://github.com/acheong08/ChatGPT-lite</a>
                 </td>
             </tr><tr><td align="center">transitive-bullshit
                 </td><td align="center">Library
@@ -85,8 +91,7 @@
             </li><li>Email/Password autofill
             </li><li>Automatic cloudflare bypass
             </li><li>Persistent conversations
-            </li></ul><h3 id="library">Library</h3><p>The ultimate original library. It has once again been revived with new bypass techniques. </p><h4 id="features-1">Features</h4><ul><li>Lightweight
-            </li><li>Can be headless with Xvfb
+            </li></ul><h3 id="library">Library</h3><p>The ultimate original library. It has once again been revived with new bypass techniques. </p><h4 id="features-1">Features</h4><ul><li>Can be headless with Xvfb
             </li><li>Extremely simple API (Just <code>ask(prompt)</code>)
             </li><li>Robust error handling
             </li><li>Automatic token refresh
@@ -94,12 +99,15 @@
             </li><li>Automatic captcha solving
             </li><li>Email/Password login
             </li><li>Microsoft login
-            </li></ul><h2 id="transitive-bullshit">transitive-bullshit</h2><p>This is the best JS library for ChatGPT. Most features you will find in other libraries can be found here as well.</p><h3 id="features-2">Features</h3><ul><li>Captcha solving (third party)
+            </li></ul><h3 id="lite">Lite</h3><p>A browserless version using a public Cloudflare bypass server by PawanOsman</p><h4 id="features-2">Features</h4><ul><li>No browser
+            </li><li>Async
+            </li><li>Automatic token refresh
+            </li></ul><h2 id="transitive-bullshit">transitive-bullshit</h2><p>This is the best JS library for ChatGPT. Most features you will find in other libraries can be found here as well.</p><h3 id="features-3">Features</h3><ul><li>Captcha solving (third party)
             </li><li>Cloudflare bypass
             </li><li>A ton of other features
-            </li></ul><h2 id="lanlan69">LanLan69</h2><p>A newer Python development library for ChatGPT. A replacement for the old <code>revChatGPT</code></p><h3 id="features-3">Features</h3><ul><li>Fast captcha solving
+            </li></ul><h2 id="lanlan69">LanLan69</h2><p>A newer Python development library for ChatGPT. A replacement for the old <code>revChatGPT</code></p><h3 id="features-4">Features</h3><ul><li>Fast captcha solving
             </li><li>Automated browser
-            </li></ul><h2 id="pawanosman">PawanOsman</h2><p>The ChatGPT.Net Unofficial .Net API for ChatGPT is a C# library that allows developers to access ChatGPT, a chat-based language model. With this API, developers can send queries to ChatGPT and receive responses in real-time, making it easy to integrate ChatGPT into their own applications.</p><h3 id="features-4">Features</h3><ul><li>Automatic login to ChatGPT using Microsoft accounts or SessionToken.
+            </li></ul><h2 id="pawanosman">PawanOsman</h2><p>The ChatGPT.Net Unofficial .Net API for ChatGPT is a C# library that allows developers to access ChatGPT, a chat-based language model. With this API, developers can send queries to ChatGPT and receive responses in real-time, making it easy to integrate ChatGPT into their own applications.</p><h3 id="features-5">Features</h3><ul><li>Automatic login to ChatGPT using Microsoft accounts or SessionToken.
             </li><li>Bypass of Cloudflare protection and fake rate limit protection.
             </li><li>Persistent cookie storage to allow for application restart without requiring login.
             </li><li>Functionality to reset conversations or create multiple conversations simultaneously.
@@ -113,14 +121,14 @@
 		</article></div>
 
 
-		<script type="module" data-sveltekit-hydrate="2lmiwf">
-			import { start } from "../../_app/immutable/start-07f01034.js";
+		<script type="module" data-sveltekit-hydrate="12zv2k9">
+			import { start } from "../../_app/immutable/start-1bee8b2d.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="2lmiwf"]').parentNode,
-				version: "1672249255182",
+				target: document.querySelector('[data-sveltekit-hydrate="12zv2k9"]').parentNode,
+				version: "1673229511439",
 				hydrate: {
 					node_ids: [0, 5],
 					data: [null,null],
